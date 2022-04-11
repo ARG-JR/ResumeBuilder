@@ -1,0 +1,16 @@
+# works like a gitignore file, tells docker what files to not include in the container
+
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+**/__pycache__/
+.env/
+.venv/
+venv/
+
+# PostgreSQL (we probably will just use MariaDB instead, it's based on MySQL but will run on our Ampere VMs, since mysql doesn't run on ARM processors)

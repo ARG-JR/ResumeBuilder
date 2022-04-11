@@ -1,0 +1,74 @@
+# app/Dockerfile.prod
+
+###########
+# BUILDER #
+###########
+
+# pull official base image
+FROM python:3.9.5-slim as builder
+
+# set work directory
+WORKDIR /app
+
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# install system dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends gcc libmariadb-dev curl netcat 
+
+# lint
+RUN pip install --upgrade pip
+RUN pip install black
+COPY . .
+RUN black .
+
+# install python dependencies
+COPY ../requirements.txt .
+RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requirements.txt
+
+
+#########
+# FINAL #
+#########
+
+# pull official base image
+FROM python:3.9.5-slim
+
+# create directory for the app user
+RUN mkdir -p /home/app
+
+# create the app user
+RUN addgroup --system app && adduser --system --group app
+
+RUN apt-get update
+RUN apt-get install gcc libmariadb-dev curl netcat -y
+
+RUN python -m venv /py
+ENV PATH="/py/bin:$PATH"
+
+RUN curl -OL https://raw.githubusercontent.com/eficode/wait-for/master/wait-for
+RUN chmod +x wait-for
+RUN cp wait-for /usr/bin/wait-for
+
+# create the appropriate directories
+ENV HOME=/home/app
+ENV APP_HOME=/home/app/web
+RUN mkdir $APP_HOME
+WORKDIR $APP_HOME
+
+# install dependencies
+COPY --from=builder /usr/src/app/wheels /wheels
+COPY --from=builder /app/requirements.txt .
+RUN pip install --upgrade pip
+RUN pip install --no-cache /wheels/*
+
+# copy project
+COPY . $APP_HOME
+
+# chown all the files to the app user
+RUN chown -R app:app $APP_HOME
+
+# change to the app user
+USER app

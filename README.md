@@ -5,6 +5,7 @@ This is a website that will have a template for users to make a resume/portfolio
 ## Objects 
 User
 - Bio
+
 Resume
 - Work experience
 - Skills

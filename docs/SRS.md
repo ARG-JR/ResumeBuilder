@@ -1,11 +1,12 @@
 # Software Requirements Specification
 ## For Resume Builder
 
-[Example (Remove this line/link later)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fpersonal.utdallas.edu%2F~chung%2FRE%2FPresentations06F%2FTeam_1.doc&wdOrigin=BROWSELINK)
+[More Descriptive Template](https://github.com/rick4470/IEEE-SRS-Tempate)   
+[Example](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fpersonal.utdallas.edu%2F~chung%2FRE%2FPresentations06F%2FTeam_1.doc&wdOrigin=BROWSELINK)
 
 Version 0.1  
-Prepared by [Jordan Renaud and Alex Garza](https://github.com/AGR-JR)
-[AGR-JR](https://github.com/AGR-JR)
+Prepared by [Jordan Renaud and Alex Garza](https://github.com/AGR-JR)   
+[AGR-JR](https://github.com/AGR-JR)   
 4/12/2022 
 
 Table of Contents
@@ -52,8 +53,6 @@ Table of Contents
 |   Name   |   Date  | Reason For Changes  | Version   |
 | -------- | ------- | ------------------- | --------- |
 | Initial  |4/12/2022|  Document Created   | 0.1       |
-|          |         |                     |           |
-|          |         |                     |           |
 
 ## 1. Introduction
 > This section should provide an overview of the entire document

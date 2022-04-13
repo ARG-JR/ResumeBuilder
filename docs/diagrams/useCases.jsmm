@@ -1,0 +1,259 @@
+{
+    "root": {
+        "name": "Resume Builder Requirements",
+        "style": {
+            "backgroundColor": "#6bb8ff",
+            "fontColor": "#000000",
+            "fontSize": 12
+        },
+        "children": {
+            "left": [
+                {
+                    "name": "Actors",
+                    "style": {
+                        "fontSize": 12,
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#000000"
+                    },
+                    "children": [
+                        {
+                            "name": "End User",
+                            "style": {
+                                "fontSize": 12,
+                                "backgroundColor": "#ffffff",
+                                "fontColor": "#000000"
+                            },
+                            "children": [
+                                {
+                                    "name": "Manage resume items",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Include resume items in resumes",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Manage Own Resumes",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Manage personal profile",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "Personal Bio",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Contact Info",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            },
+                                            "children": [
+                                                {
+                                                    "name": "Phone",
+                                                    "style": {
+                                                        "fontSize": 12,
+                                                        "backgroundColor": "#ffffff",
+                                                        "fontColor": "#000000"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Email",
+                                                    "style": {
+                                                        "fontSize": 12,
+                                                        "backgroundColor": "#ffffff",
+                                                        "fontColor": "#000000"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "Address",
+                                                    "style": {
+                                                        "fontSize": 12,
+                                                        "backgroundColor": "#ffffff",
+                                                        "fontColor": "#000000"
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "name": "Unnamed element",
+                                                            "style": {
+                                                                "fontSize": 12,
+                                                                "backgroundColor": "#ffffff",
+                                                                "fontColor": "#000000"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Employers",
+                            "style": {
+                                "fontSize": 12,
+                                "backgroundColor": "#ffffff",
+                                "fontColor": "#000000"
+                            },
+                            "children": [
+                                {
+                                    "name": "View published resumes",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "System",
+                            "style": {
+                                "fontSize": 12,
+                                "backgroundColor": "#ffffff",
+                                "fontColor": "#050505"
+                            },
+                            "children": [
+                                {
+                                    "name": "Maintain a list of users",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Maintain a list of resume items",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "Work Experience",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "strokeColor": "#000000",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Skills",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Education",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Awards",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Links",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Maintain a list of resumes",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "System Administrators",
+                            "style": {
+                                "fontSize": 12,
+                                "backgroundColor": "#ffffff",
+                                "fontColor": "#000000"
+                            },
+                            "children": [
+                                {
+                                    "name": "Manage Users",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Manage Resume Items",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                },
+                                {
+                                    "name": "Manage Resumes",
+                                    "style": {
+                                        "fontSize": 12,
+                                        "backgroundColor": "#ffffff",
+                                        "fontColor": "#000000"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "right": [
+                {
+                    "name": "Unclassified Use Cases",
+                    "style": {
+                        "fontSize": 12,
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#000000"
+                    }
+                }
+            ]
+        }
+    }
+}

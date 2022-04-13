@@ -30,7 +30,50 @@
                                         "fontSize": 12,
                                         "backgroundColor": "#ffffff",
                                         "fontColor": "#000000"
-                                    }
+                                    },
+                                    "children": [
+                                        {
+                                            "name": "Work Experience",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "strokeColor": "#000000",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Skills",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Education",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Awards",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        },
+                                        {
+                                            "name": "Links",
+                                            "style": {
+                                                "fontSize": 12,
+                                                "backgroundColor": "#ffffff",
+                                                "fontColor": "#000000"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "Include resume items in resumes",
@@ -94,17 +137,7 @@
                                                         "fontSize": 12,
                                                         "backgroundColor": "#ffffff",
                                                         "fontColor": "#000000"
-                                                    },
-                                                    "children": [
-                                                        {
-                                                            "name": "Unnamed element",
-                                                            "style": {
-                                                                "fontSize": 12,
-                                                                "backgroundColor": "#ffffff",
-                                                                "fontColor": "#000000"
-                                                            }
-                                                        }
-                                                    ]
+                                                    }
                                                 }
                                             ]
                                         }
@@ -152,50 +185,7 @@
                                         "fontSize": 12,
                                         "backgroundColor": "#ffffff",
                                         "fontColor": "#000000"
-                                    },
-                                    "children": [
-                                        {
-                                            "name": "Work Experience",
-                                            "style": {
-                                                "fontSize": 12,
-                                                "backgroundColor": "#ffffff",
-                                                "strokeColor": "#000000",
-                                                "fontColor": "#000000"
-                                            }
-                                        },
-                                        {
-                                            "name": "Skills",
-                                            "style": {
-                                                "fontSize": 12,
-                                                "backgroundColor": "#ffffff",
-                                                "fontColor": "#000000"
-                                            }
-                                        },
-                                        {
-                                            "name": "Education",
-                                            "style": {
-                                                "fontSize": 12,
-                                                "backgroundColor": "#ffffff",
-                                                "fontColor": "#000000"
-                                            }
-                                        },
-                                        {
-                                            "name": "Awards",
-                                            "style": {
-                                                "fontSize": 12,
-                                                "backgroundColor": "#ffffff",
-                                                "fontColor": "#000000"
-                                            }
-                                        },
-                                        {
-                                            "name": "Links",
-                                            "style": {
-                                                "fontSize": 12,
-                                                "backgroundColor": "#ffffff",
-                                                "fontColor": "#000000"
-                                            }
-                                        }
-                                    ]
+                                    }
                                 },
                                 {
                                     "name": "Maintain a list of resumes",
